@@ -1,0 +1,65 @@
+@keyframes luces{
+    0% {color: red;}
+    25% {color: green;}
+    50% {color: yellow;}
+    75% {color: blue;}
+    100% {color: purple;}
+}
+header{
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    font-size: x-large;
+    animation-name: luces;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+
+nav{
+    background-color: #555;
+    padding: 10px 0;
+}
+      
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    margin: 30px auto;
+    width: 80%;
+}
+
+body{
+    font-family:"Playwrite DK Loopet", cursive;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: #333;
+}
+
+article {
+    background-color: rgb(110, 107, 107);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imagenes1{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+.imagenes1 img{
+    width: 200px;
+    border-radius: 10px;
+}

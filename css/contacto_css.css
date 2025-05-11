@@ -1,0 +1,66 @@
+body{
+    font-family:"Playwrite DK Loopet", cursive ;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #e65100;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #ff9800;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+ 
+form {
+    background-color: #ffe0b2;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: 2px solid #ffb74d;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    background-color: #e65100;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+   
+p {
+    text-align: center;
+}
